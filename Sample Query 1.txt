@@ -1,0 +1,4 @@
+Select*
+FROM DDWV21R.CC_HIER_CURR
+WHERE ROLE_NM like '%Credit%'
+AND ENTITY <> 'Multichannel'
